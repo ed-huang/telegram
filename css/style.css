@@ -1,0 +1,110 @@
+.box-set {
+	  background: #eaeaed;
+	}
+	.box {
+	  background: #fff;
+	  float:left;
+	  margin: 0;
+	  height: 400px;
+	  vertical-align: top;
+
+	  
+	}
+
+	.box.left {
+		text-align: center;
+	}
+
+	.content {
+		margin-top: 130px;
+	}
+
+	.content.signup {
+		margin-left: 50px;
+	}
+
+	.postmark {
+		float: right;
+		margin-top: 10px;
+	}
+
+	article {
+		
+		width: 800px;
+		margin: 0 auto;
+		font-family: "Open Sans";
+	}
+
+	h3 {
+		font-size: 22px;
+		color: #000000;
+		margin: 0;
+	}
+
+	body {
+		background: #0084B2;
+	}
+	.login {
+		font-size: 13px;
+		color: #0084B2;
+		font-weight: bold;
+		border: #0084B2 1px solid;
+		background: #fff;
+		cursor: pointer;
+	}
+
+	.signup input {
+		clear: both;
+	}
+
+	.input input {
+		display: block;
+		clear: both;
+		border: none;
+		border-bottom:1px solid #EEEEEE;
+		height: 30px;
+		width: 80%;
+		padding: 5px;
+	}
+
+	::-webkit-input-placeholder {
+	   color: #000;
+	}
+
+	:-moz-placeholder { /* Firefox 18- */
+	   color: #000;  
+	}
+
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: #000;  
+	}
+
+	:-ms-input-placeholder {  
+	   color: #000;  
+	}
+
+	.recover {
+		font-size: 13px;
+		margin-left: 40px;
+	}
+
+	.recover a {
+		
+		color: #0084B2;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.col-1-2 {
+		width: 50%;
+	}
+
+	.vertical_line {
+		float: right;
+		border-right: 1px solid #DBDBDB;;
+		height: 300px;
+		width: 1px;
+		position: relative;
+		webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
